@@ -28,15 +28,15 @@
   &:hover .text {
     transform: translateX(12px);
     @media (max-width: 1199px) {
-    transform: translateX(5px);
+      transform: translateX(5px);
     }
   }
   &:hover .img {
     transform: translateX(5px);
     margin-left: 15px;
     @media (max-width: 1199px) {
-    transform: translateX(5px);
-    margin-left: 8px;
+      transform: translateX(5px);
+      margin-left: 8px;
     }
   }
   .text,
@@ -46,7 +46,7 @@
   .img {
     margin-left: 8px;
     position: relative;
-    top: -2px;
+    top: 0px;
   }
 }
 @mixin custom-button2(
@@ -76,13 +76,16 @@
   cursor: pointer;
   &:hover .text {
     transform: translateX(12px);
+    @media (max-width: 1199px) {
+      transform: translateX(5px);
+    }
   }
   &:hover .img {
-    transform: translateX(25px);
+    transform: translateX(5px);
     margin-left: 15px;
     @media (max-width: 1199px) {
-      transform: translateX(8px);
-      margin-left: 15px;
+      transform: translateX(5px);
+      margin-left: 8px;
     }
   }
   .text,
@@ -92,7 +95,7 @@
   .img {
     margin-left: 8px;
     position: relative;
-    top: -2px;
+    top: 0px;
   }
 }
 @mixin custom-button3(
@@ -114,7 +117,7 @@
   border-radius: 0px;
   @media (max-width: 1199px) {
     width: 250px;
-    height: 48px;    
+    height: 48px;
   }
   &:hover {
     color: $bg-color;
@@ -160,10 +163,17 @@
   }
   &:hover .text {
     transform: translateX(12px);
+    @media (max-width: 1199px) {
+      transform: translateX(5px);
+    }
   }
   &:hover .img {
-    transform: translateX(25px);
+    transform: translateX(5px);
     margin-left: 15px;
+    @media (max-width: 1199px) {
+      transform: translateX(5px);
+      margin-left: 8px;
+    }
   }
   .text,
   .img {
@@ -172,7 +182,7 @@
   .img {
     margin-left: 8px;
     position: relative;
-    top: -2px;
+    top: 0px;
   }
 }
 @mixin form-button2($height: 45px, $bg-color: #000000, $text-color: #faf2e8) {
@@ -195,10 +205,17 @@
   }
   &:hover .text {
     transform: translateX(12px);
+    @media (max-width: 1199px) {
+      transform: translateX(5px);
+    }
   }
   &:hover .img {
     transform: translateX(25px);
     margin-left: 15px;
+    @media (max-width: 1199px) {
+      transform: translateX(8px);
+      margin-left: 15px;
+    }
   }
   .text,
   .img {
