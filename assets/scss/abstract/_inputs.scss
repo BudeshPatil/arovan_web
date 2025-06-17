@@ -46,7 +46,8 @@ input[type="button"] {
   height: 36px;
   padding: 10px;
   background: transparent;
-  font-family: $font-lufga;
+  // font-family: $font-lufga;
+  font-family: $font-lufga-regular;
   // margin: 5px 0;
   border: 1px solid $text-dark;
   border-radius: 0px;
@@ -95,8 +96,8 @@ input[type="button"] {
 a {
   text-decoration: none;
   color: $text-primary;
-  // font-family: $font-lufga-regular;
-  font-family: $font-lufga;
+  font-family: $font-lufga-regular;
+  // font-family: $font-lufga;
   font-weight: 400;
   &:hover {
     color: $text-dark;
@@ -110,7 +111,8 @@ textarea {
   width: 100%;
   padding: 10px;
   background: transparent;
-  font-family: $font-lufga;
+  font-family: $font-lufga-regular;
+  // font-family: $font-lufga;
   // margin: 5px 0;
   border: 1px solid $text-dark !important;
   border-radius: 0px !important;
